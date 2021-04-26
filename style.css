@@ -1,0 +1,59 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Customising Scrollbar */
+
+/* Left Side */
+#container-left::-webkit-scrollbar-track {
+    display: none;
+}
+
+#container-left::-webkit-scrollbar {
+    width: 2px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#container-left::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+/* Right Side */
+#container-right::-webkit-scrollbar-track {
+    display: none;
+}
+
+#container-right::-webkit-scrollbar {
+    width: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#container-right::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+}
+
+/* Left Page */
+#container-left {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+    background: none;
+}
+
+/* Right Page */
+#container-right {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+    background: none;
+}
