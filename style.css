@@ -1,3 +1,7 @@
+* {
+    cursor: crosshair;
+}
+
 body {
     background-color: #ffffff;
     margin: 0px;
@@ -45,6 +49,15 @@ body {
     overflow-x: hidden;
     overflow-y: scroll; 
     background: none;
+    font-family: 'Cutive Mono', monospace;
+}
+
+#myself {
+    padding: 50px;
+    margin: 0px;
+    text-align: justify;
+    line-height: 150%;
+    
 }
 
 /* Right Page */
@@ -56,4 +69,9 @@ body {
     overflow-x: hidden;
     overflow-y: scroll; 
     background: none;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.main-project-title {
+    padding-top: 30px;
 }
