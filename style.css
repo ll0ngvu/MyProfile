@@ -42,7 +42,7 @@ body {
 
 /* Left Page */
 #container-left {
-    max-width: 50%;
+    max-width: 45%;
     width: 50%;
     float: left;
     height: 100vh;
@@ -52,12 +52,22 @@ body {
     font-family: 'Cutive Mono', monospace;
 }
 
+#about-title {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
 #myself {
-    padding: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
     margin: 0px;
     text-align: justify;
     line-height: 150%;
-    
+}
+
+#experience-title {
+    padding-top: 40px;
+    padding-left: 50px;
 }
 
 /* Right Page */
@@ -72,6 +82,6 @@ body {
     font-family: 'Cutive Mono', monospace;
 }
 
-.main-project-title {
+#project-title {
     padding-top: 30px;
 }
